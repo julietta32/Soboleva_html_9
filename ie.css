@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('(fonts/leaguegothic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url('fonts/MyriadProRegular/MyriadProRegular.eot');
+    src: url('fonts/MyriadProRegular/MyriadProRegular.eot?#iefix')format('embedded-opentype'),
+    url('fonts/MyriadProRegular/MyriadProRegular.woff') format('woff'),
+    url('fonts/MyriadProRegular/MyriadProRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    width: 960px;
+}
+
+div.mount{
+    height: 845px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(img/mount.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+ 
+div.header{
+    height: 280px; 
+}
+
+
+
+div.pingbuller{
+    height: 110px;
+    width: 268px;
+    float: left;
+    padding-top: 58.5px;
+    padding-left: 0;
+    font-size: 44px;
+    color:white;
+    text-align: right;
+    font-family: "league_gothicregular"; 
+   
+ 
+}
+
+div.pingbuller span{
+    color: #533b5e;  
+}
+
+a.home_320{
+    display: none;
+}
+
+div.menu_head{
+    height: 110px;
+    width: 677px;
+    padding-left: 15px;
+    float: left;
+
+  
+}
+
+ul.menu{
+    overflow: hidden;
+    position: relative;
+    padding-left: 0px;
+    padding-top: 75px;
+}
+        
+        
+ul.menu li{
+    float: left;
+    font-size: 15px;
+    font-family: "league_gothicregular", arial;
+    list-style-type: none;   
+}
+       
+ul.menu a{
+    text-decoration: none;
+    color: white; 
+}
+
+ul.menu a:hover{
+    text-decoration: underline;
+    color: #edbfff;
+}
+
+
+div.opacity{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    background-color: dimgrey;
+    filter: alpha(Opacity=70);
+}
+
+
+div.opacity_text{
+    width: 53%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 72px;
+    color: white;
+    font-family: "league_gothicregular", arial;
+}
+
+
+.opacity_1{
+    font-size: 60px; 
+}
+
+.opacity_2{
+    font-size: 20px;
+    color: #edbfff; 
+}
+
+.opacity_3{
+    font-size: 18px;
+    color: white;
+    font-family: "MyriadProRegular", arial;
+}
+
+
+
+
+div.opacity_img{
+    height: 400px;
+    width: 37%;
+    padding-left: 5%;
+    float: right;
+    background-image: url(img/phone.png);
+    background-repeat:no-repeat;  
+    
+} 
+
+div.menu_head_visible_480{
+    display: none;
+}
+
+div.fiolet{
+    height: 268px;
+    padding-top: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(to bottom, #765283, #372a3f);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#765283', endColorstr='#372a3f');
+    color: #edebed;
+    font-family:  "league_gothicregular", arial;
+    font-size: 18px;   
+}
+
+
+
+
+div.fiolet_image1,div.fiolet_image2,div.fiolet_image3{
+    height: 25px;
+    width: 24.1px;
+    margin-right: 27px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(img/kluch_sprite.png);
+    background-repeat: 0 0 no-repeat;
+    float: left;    
+}
+
+div.fiolet_image2{
+    background-position: -25px 0;
+}
+
+div.fiolet_image3{
+    background-position: -50.5px 0;
+}
+
+
+div.fiolet_item1,div.fiolet_item2,div.fiolet_item3{
+    height: 80px;
+    width: 28%;
+    float: left;
+    padding-right: 4%;
+    margin-right: 1%;
+    font-family:  "league_gothicregular", arial;
+}
+
+
+.fiolet_item_span{
+    font-family:  "MyriadProRegular";
+    font-size: 16px; 
+}
+
+div.fiolet a{
+    padding-left: 130px;
+    font-size: 18px;
+    color: white;
+}
+
+a.read_320{
+    display: none;
+}
+
+
+div.white{
+    height: 490px;
+    position: relative;
+    overflow: hidden;
+}
+     
+div.ancle{
+    height: 223px;
+    width: 38%;
+    float: left;
+    padding-left: 9%;
+    padding-top: 115px;
+    font-family: "league_gothicregular", arial;
+    font-size: 30px;
+    color: #686868; 
+}
+
+.white_item_span_pinbull{
+    color: #edbfff;
+}
+.white_item_span_text{
+    color: #454545;
+    font-family: "league_gothicregular", arial;
+    font-size: 16px;
+}   
+.ancle img{
+    padding-right: 15px;
+}    
+
+
+
+div.krugok{
+    height: 260px;
+    width: 48%;
+    float: right;
+}
+
+
+ul.krugok_menu{
+    overflow: hidden;
+    position: relative;
+    
+
+
+}
+.krugok_menu li{
+    padding-top: 25px;
+    padding-left: 66px;
+    list-style: none;
+    font-size: 16px;
+    font-family: "league_gothicregular", arial;
+    color: #454545;
+    background: url(img/krugok.png) no-repeat -50px -60px; 
+}
+
+
+.krugok p{
+    padding-top: 135px;
+    font-size: 30px;
+    font-family: "league_gothicregular", arial;
+    color: #454545;
+}
+
+.krugok_menu_item1_span1,krugok_menu_item2_span{
+    color: #454545;
+}
+
+
+.krugok a{
+    padding-left: 60%;
+    color: #454545;
+    font-size: 18px;
+    font-family: "league_gothicregular", arial; 
+}
+
+div.firmi{
+    height: 96px;
+    margin-left: 15%;
+    padding-top: 10px;
+    padding-left: 22%;
+    background-image: url(img/firmi.png);
+    background-repeat: no-repeat;
+   
+}
+
+div.grey{
+    height: 600px;
+    background-color: #ececec;
+}
+
+div.grey_pigbull, div.grey_recent, div.grey_news{
+    width: 20%;
+    float: left;
+    margin-left: 8%;
+    padding-top: 100px;
+    padding-right: 5%;
+    color: #9f9f9f;
+    font-size: 16px;
+    font-family: "league_gothicregular", arial;      
+}
+
+.grey_pigbull span{
+    font-size: 40px;
+    color: #b9b9b9;
+}
+
+.grey_pigbull p{
+    font-size: 40px;
+    color: #454545;
+
+}
+
+.grey_recent p, .grey_news p{
+    font-size: 30px;
+    color: #454545;
+}
+
+div.footer{
+    height: 114px;
+    width: 960px;
+    clear: both;
+background-image: url(img/mount.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.menu_head_480{
+    display: none;
+}
+
+
+
